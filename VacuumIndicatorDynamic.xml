@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/alex/VacuumIndicatorDynamic/VacuumIndicatorDynamic.kicad_sch</source>
+    <date>Ср 25 янв 2023 02:37:10</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VacuumIndicatorDynamic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>driver_list.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dda52af1-cc42-4ed5-97ba-0d7a5a30e5e7</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1571581-bbb6-4270-979e-50bb366499aa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12881407-7617-415e-a19e-da9e47677b2a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84d05990-c8b5-4a92-8244-f6de53abe747</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1fda711-2596-45d6-ba24-29f1f5117356</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47uF</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83217fd8-a53a-4d04-ba20-b54a75754205</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13c44b46-6a92-4e62-bb75-79f76f095d39</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671006cd-9216-41c5-8dd3-6849b1c3baa5</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>607d1d4b-3aad-4c9c-88d9-1e44909feda2</tstamps>
+    </comp>
+    <comp ref="EL1">
+      <value>VacuumIndicator</value>
+      <libsource lib="ProjectLib" part="VacuumIndicator" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04ba1a7e-878a-4718-8f31-337b94c9e2d7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d2dbbe9-9b4d-435a-a417-9439a6e5cf56</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d48c3945-f280-4bf8-b498-f34cf10693e8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b89a7ea-6eb4-4163-b7c6-5f73da1b7144</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51a42414-b246-4e33-895b-fb0d01fa3dba</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bc052af-1ba7-4505-ae22-7ddb567fc9ee</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c949f227-434c-4fab-8aac-de5b981d0568</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66332caf-ad05-4765-ae24-d80b6103d7ed</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e66b11-7507-4d02-b9d0-6424b10f8e27</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faae848e-8fef-407d-a0cc-e3e2a1a7242a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>374e008f-71b7-4e41-9423-d6267c4a14d8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0890dc9-0485-4bd9-8334-675630f7df0f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>680c4727-4f1d-4fb3-8901-102f3fdb2c68</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7321404-72b3-4b64-a3ee-9c60cc7c0477</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc883555-a651-4163-900a-122734cc1eb3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60869ae0-e138-48e6-af79-7b7247116ec6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a5d271d-699f-44cc-8d9f-fbd0db687f6b</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56dbbd40-c1b8-4c10-a0d8-c30ec6694c11</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>170da004-7939-4ef1-a592-aaeefcbcca78</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x01</value>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36d6e8f1-36d7-43a6-bcf2-d35c4f097daa</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_DIP_x01</value>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b6d317-e354-4d27-a86a-b93ed70c269f</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_DIP_x01</value>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b61a97-67bb-454a-9cc6-1d1d453a5fdf</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP1117-25</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.diodes.com/datasheets/AP1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP1117-25" description="1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8e1735c-928a-4627-84ea-ce1e52d5e619</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>YAAJ_BluePill</value>
+      <footprint>ProjectLibrary:YAAJ_BluePill_1</footprint>
+      <libsource lib="ProjectLib" part="YAAJ_BluePill" description="STM32 Blue Pill ; KLC compliant"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a76f162-6923-4601-8faa-266e4c898cc6</tstamps>
+    </comp>
+    <comp ref="VT1">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1b9c754-279e-4cbb-b429-85a842457d8b</tstamps>
+    </comp>
+    <comp ref="VT2">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bf4d0c5-5818-48a7-b93e-e9dc0ba1157d</tstamps>
+    </comp>
+    <comp ref="VT3">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d79e22-ee38-4dfb-b8ba-1102d68ec180</tstamps>
+    </comp>
+    <comp ref="VT4">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f90fde3-3059-4f3f-af8c-15c5e5139323</tstamps>
+    </comp>
+    <comp ref="VT5">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7edb3495-0cfb-46a6-8543-b5749864ce76</tstamps>
+    </comp>
+    <comp ref="VT6">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d49688ed-88a8-496e-b9e4-3ab94f8a663f</tstamps>
+    </comp>
+    <comp ref="VT7">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f088f6f-ea6a-481a-a6bc-27fc5d012cfa</tstamps>
+    </comp>
+    <comp ref="VT8">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>461ed180-546a-4d90-8721-01b8ee9d612d</tstamps>
+    </comp>
+    <comp ref="VT9">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VacuumIndicatorDynamic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f937245-f054-4a62-96f8-354fa3609347</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>adbde998-2f2d-4e8d-a415-c8e0b47bbe73</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>4e5991a1-fe05-41f6-a129-29feb6f3e100</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>e2a40050-823a-4c73-a451-93ca88cc416b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>65c67d0f-0833-4bd7-b6ab-6e2b7e31a053</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>4a3ca06a-36a9-4845-bb67-d400ff5f0d45</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>b5cd3193-48d6-4862-b598-ddc6c1b7d18e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>b8d2f94d-7f39-49b7-8fc1-90b8e4d7b41e</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>7a35683f-d3f2-4696-a11c-f36a1589ce26</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>cdcbd095-086c-4755-a573-264cc338cac6</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>c17cb052-6444-4ca0-843b-b4990a81c9c2</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>0e255b74-8abc-4b6d-be7b-e429d01a0c87</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>006a892a-4b16-4eff-beb7-af95c0f57e8e</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>e989b34e-7582-4652-b349-4ea57b92724f</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>e8fdc1a9-482e-4a16-bd36-279179f75eca</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>2047ffb3-2837-4ba6-874d-11d35b5d553e</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>84b26d5c-4c8b-4f46-8dc1-8038ef2b5a9f</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>c2471ae9-c86f-409d-80a7-36b4d1f565eb</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>87643acd-9705-43ad-95d0-d640de2d6275</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>542a0a56-7d49-422e-a3c0-5c68a112f5d0</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>de656b3c-c745-4873-93ea-2e72f9e1511d</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>a7882122-ce6d-40eb-9ab9-030d176a8409</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>1ef133aa-ebd9-47d7-ae4b-53363f56d7dd</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>0c1cfc5b-e878-4bff-af3a-48cf86d6762b</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>b836d556-27c0-4d02-b6d2-5bc2edbfcdf6</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>744d60ca-1119-4576-be4a-582444807988</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>37448262-156d-4784-af46-eb3e7126f8df</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>68b50b13-b963-48ad-950b-20ba81e6e475</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>b3a9d019-5e16-4ad1-ac6c-315fd1a2e7d2</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>9774ebee-25cd-4a1c-936d-46218a6c0142</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>2c17e882-980e-4208-afb3-f8dc0d39f1d1</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>f307a0f7-46fd-4038-9db0-ccba906200b6</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>8b7754f0-f80e-4ef0-998c-0ccf8f4cae0e</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>57b2277f-08f5-44f5-93e0-92100e175c96</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>6e347c91-1cc0-4544-a830-622e930af5d9</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>47k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>c6cbaaa8-6d3f-47b4-8cfb-c14b23836ece</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>510</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>7b026aca-775f-41b7-af9a-b5249942efad</tstamps>
+    </comp>
+    <comp ref="VT10">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>0ccefb79-cfae-4a33-bcbf-8d3302f30c04</tstamps>
+    </comp>
+    <comp ref="VT11">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>8bd470a2-28fc-42cf-9901-5839370e6a7c</tstamps>
+    </comp>
+    <comp ref="VT12">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>584e9007-9e34-4648-b5b0-8c61d9e4b9a0</tstamps>
+    </comp>
+    <comp ref="VT13">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>c1d6dbbb-5a61-4900-b212-f5176bca4952</tstamps>
+    </comp>
+    <comp ref="VT14">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>d346dde3-562a-4d31-b3f9-ebe789004036</tstamps>
+    </comp>
+    <comp ref="VT15">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>768c6db1-bd60-4cf2-b989-c81dd65eb019</tstamps>
+    </comp>
+    <comp ref="VT16">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>cff4d9c1-d3f5-4cf2-9c98-14852e01ef73</tstamps>
+    </comp>
+    <comp ref="VT17">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>24b381c0-beb0-4cb9-a90d-c2e7941fe4d4</tstamps>
+    </comp>
+    <comp ref="VT18">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>d08d2591-aba1-4110-b658-ddbb453fd10a</tstamps>
+    </comp>
+    <comp ref="VT19">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>f33cb810-1fd7-43aa-8a80-38d430cfcdc2</tstamps>
+    </comp>
+    <comp ref="VT20">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>b3357327-cb7e-467d-8b7a-691d8d59c022</tstamps>
+    </comp>
+    <comp ref="VT21">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>4ecae6ab-4d58-4e66-a03e-4216f4efbd25</tstamps>
+    </comp>
+    <comp ref="VT22">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>cb1a7334-fcd9-41bd-a67e-4bd78af16e11</tstamps>
+    </comp>
+    <comp ref="VT23">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>27a516a9-2c63-4001-bc5d-230f61944c46</tstamps>
+    </comp>
+    <comp ref="VT24">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>1d0d1b63-59ab-423b-854c-9d0ec47eb9fe</tstamps>
+    </comp>
+    <comp ref="VT25">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>8c24174b-a6a3-4bcf-9a99-df40e41e05b7</tstamps>
+    </comp>
+    <comp ref="VT26">
+      <value>KT3102AM</value>
+      <libsource lib="ProjectLib" part="KT3102AM" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>3e9e2cf8-0154-410c-8a9a-ec66851fffd8</tstamps>
+    </comp>
+    <comp ref="VT27">
+      <value>КТ209М</value>
+      <libsource lib="ProjectLib" part="КТ209М" description=""/>
+      <property name="Sheetname" value="AnodeDriverList"/>
+      <property name="Sheetfile" value="driver_list.kicad_sch"/>
+      <sheetpath names="/AnodeDriverList/" tstamps="/57591b34-ee79-4c2b-b49f-df46175499d5/"/>
+      <tstamps>10c5e5e5-e8d6-47f2-bc29-06007c72b89d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectLib" part="KT3102AM">
+      <fields>
+        <field name="Reference">VT</field>
+        <field name="Value">KT3102AM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectLib" part="VacuumIndicator">
+      <fields>
+        <field name="Reference">EL</field>
+        <field name="Value">VacuumIndicator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Накал_1" type="power_in"/>
+        <pin num="2" name="Накал_2" type="power_in"/>
+        <pin num="3" name="Анод_1" type="input"/>
+        <pin num="4" name="Анод_2" type="input"/>
+        <pin num="5" name="Анод_3" type="input"/>
+        <pin num="6" name="Анод_4" type="input"/>
+        <pin num="7" name="Анод_5" type="input"/>
+        <pin num="8" name="Анод_6" type="input"/>
+        <pin num="9" name="Анод_7" type="input"/>
+        <pin num="10" name="Анод_8" type="input"/>
+        <pin num="11" name="Анод_9" type="input"/>
+        <pin num="12" name="Катод_1" type="input"/>
+        <pin num="13" name="Катод_2" type="input"/>
+        <pin num="14" name="Катод_3" type="input"/>
+        <pin num="15" name="Катод_4" type="input"/>
+        <pin num="16" name="Катод_5" type="input"/>
+        <pin num="17" name="Катод_6" type="input"/>
+        <pin num="18" name="Катод_7" type="input"/>
+        <pin num="19" name="Катод_8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectLib" part="YAAJ_BluePill">
+      <description>STM32 Blue Pill ; KLC compliant</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">YAAJ_BluePill</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB12" type="bidirectional"/>
+        <pin num="2" name="PB13" type="bidirectional"/>
+        <pin num="3" name="PB14" type="bidirectional"/>
+        <pin num="4" name="PB15" type="bidirectional"/>
+        <pin num="5" name="PA8" type="bidirectional"/>
+        <pin num="6" name="PA9" type="bidirectional"/>
+        <pin num="7" name="PA10" type="bidirectional"/>
+        <pin num="8" name="PA11" type="bidirectional"/>
+        <pin num="9" name="PA12" type="bidirectional"/>
+        <pin num="10" name="PA15" type="bidirectional"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PB4" type="bidirectional"/>
+        <pin num="13" name="PB5" type="bidirectional"/>
+        <pin num="14" name="PB6" type="bidirectional"/>
+        <pin num="15" name="PB7" type="bidirectional"/>
+        <pin num="16" name="PB8" type="bidirectional"/>
+        <pin num="17" name="PB9" type="bidirectional"/>
+        <pin num="18" name="5V" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="3V3" type="power_in"/>
+        <pin num="21" name="VBat" type="power_in"/>
+        <pin num="22" name="PC13" type="bidirectional"/>
+        <pin num="23" name="PC14" type="bidirectional"/>
+        <pin num="24" name="PC15" type="bidirectional"/>
+        <pin num="25" name="PA0" type="bidirectional"/>
+        <pin num="26" name="PA1" type="bidirectional"/>
+        <pin num="27" name="PA2" type="bidirectional"/>
+        <pin num="28" name="PA3" type="bidirectional"/>
+        <pin num="29" name="PA4" type="bidirectional"/>
+        <pin num="30" name="PA5" type="bidirectional"/>
+        <pin num="31" name="PA6" type="bidirectional"/>
+        <pin num="32" name="PA7" type="bidirectional"/>
+        <pin num="33" name="PB0" type="bidirectional"/>
+        <pin num="34" name="PB1" type="bidirectional"/>
+        <pin num="35" name="PB10" type="bidirectional"/>
+        <pin num="36" name="PB11" type="bidirectional"/>
+        <pin num="37" name="RST" type="input"/>
+        <pin num="38" name="3V3" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectLib" part="КТ209М">
+      <fields>
+        <field name="Reference">VT</field>
+        <field name="Value">КТ209М</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-25">
+      <description>1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-25</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.diodes.com/datasheets/AP1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ProjectLib">
+      <uri>/home/alex/VacuumIndicatorDynamic/ProjectLib.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/usr/share/kicad/symbols//pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+2V5">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="EL1" pin="1" pinfunction="Накал_1" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5VA">
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="+24V">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="VT12" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT13" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT16" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT17" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT20" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT21" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT24" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT25" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT27" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="5" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="VBat" pintype="power_in"/>
+    </net>
+    <net code="6" name="/A1">
+      <node ref="EL1" pin="3" pinfunction="Анод_1" pintype="input"/>
+    </net>
+    <net code="7" name="/A2">
+      <node ref="EL1" pin="4" pinfunction="Анод_2" pintype="input"/>
+    </net>
+    <net code="8" name="/A3">
+      <node ref="EL1" pin="5" pinfunction="Анод_3" pintype="input"/>
+    </net>
+    <net code="9" name="/A4">
+      <node ref="EL1" pin="6" pinfunction="Анод_4" pintype="input"/>
+    </net>
+    <net code="10" name="/A5">
+      <node ref="EL1" pin="7" pinfunction="Анод_5" pintype="input"/>
+    </net>
+    <net code="11" name="/A6">
+      <node ref="EL1" pin="8" pinfunction="Анод_6" pintype="input"/>
+    </net>
+    <net code="12" name="/A7">
+      <node ref="EL1" pin="9" pinfunction="Анод_7" pintype="input"/>
+    </net>
+    <net code="13" name="/A8">
+      <node ref="EL1" pin="10" pinfunction="Анод_8" pintype="input"/>
+    </net>
+    <net code="14" name="/A9">
+      <node ref="EL1" pin="11" pinfunction="Анод_9" pintype="input"/>
+    </net>
+    <net code="15" name="/AU1">
+      <node ref="U2" pin="33" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/AU2">
+      <node ref="U2" pin="34" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/AU3">
+      <node ref="U2" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/AU4">
+      <node ref="U2" pin="12" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/AU5">
+      <node ref="U2" pin="13" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/AU6">
+      <node ref="U2" pin="14" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/AU7">
+      <node ref="U2" pin="15" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/AU8">
+      <node ref="U2" pin="16" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/AU9">
+      <node ref="U2" pin="17" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/AnodeDriverList/A1">
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/AnodeDriverList/A2">
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/AnodeDriverList/A3">
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/AnodeDriverList/A4">
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/AnodeDriverList/A5">
+      <node ref="R48" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/AnodeDriverList/A6">
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/AnodeDriverList/A7">
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/AnodeDriverList/A8">
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/AnodeDriverList/A9">
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/AnodeDriverList/AU1">
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/AnodeDriverList/AU2">
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/AnodeDriverList/AU3">
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/AnodeDriverList/AU4">
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/AnodeDriverList/AU5">
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/AnodeDriverList/AU6">
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/AnodeDriverList/AU7">
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/AnodeDriverList/AU8">
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="/AnodeDriverList/AU9">
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/BTN1">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/BTN2">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/BTN3">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/K1">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="35" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/K2">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/K3">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/K4">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/K5">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/K6">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/K7">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/K8">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/N">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/RX1">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/TX1">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/USBD+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/USBD-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/USB_D+">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/USB_D-">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="VT1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT10" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT11" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT14" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT15" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT18" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT19" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT22" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT23" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT26" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT6" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT7" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="VT9" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(EL1-Pad2)">
+      <node ref="EL1" pin="2" pinfunction="Накал_2" pintype="power_in"/>
+      <node ref="VT9" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(EL1-Pad12)">
+      <node ref="EL1" pin="12" pinfunction="Катод_1" pintype="input"/>
+      <node ref="VT1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(EL1-Pad13)">
+      <node ref="EL1" pin="13" pinfunction="Катод_2" pintype="input"/>
+      <node ref="VT2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(EL1-Pad14)">
+      <node ref="EL1" pin="14" pinfunction="Катод_3" pintype="input"/>
+      <node ref="VT3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(EL1-Pad15)">
+      <node ref="EL1" pin="15" pinfunction="Катод_4" pintype="input"/>
+      <node ref="VT4" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(EL1-Pad16)">
+      <node ref="EL1" pin="16" pinfunction="Катод_5" pintype="input"/>
+      <node ref="VT8" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(EL1-Pad17)">
+      <node ref="EL1" pin="17" pinfunction="Катод_6" pintype="input"/>
+      <node ref="VT7" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(EL1-Pad18)">
+      <node ref="EL1" pin="18" pinfunction="Катод_7" pintype="input"/>
+      <node ref="VT6" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(EL1-Pad19)">
+      <node ref="EL1" pin="19" pinfunction="Катод_8" pintype="input"/>
+      <node ref="VT5" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="VT1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="VT2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="VT3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="VT4" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="VT5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="VT6" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="VT7" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="VT8" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="VT9" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="VT10" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="VT11" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="VT12" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="VT10" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="VT13" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="VT11" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="VT12" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="VT13" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="VT14" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="VT15" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="VT16" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="VT14" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="VT17" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="VT15" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="VT16" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="VT17" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="VT18" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="VT19" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="VT20" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="VT18" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="VT21" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="VT19" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="VT20" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="VT21" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="VT22" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="VT23" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="VT24" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(R40-Pad2)">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="VT22" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="VT25" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(R42-Pad2)">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="VT23" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="109" name="Net-(R43-Pad1)">
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="VT24" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(R44-Pad1)">
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="VT25" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(R45-Pad2)">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="VT26" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="112" name="Net-(R46-Pad2)">
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="VT27" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="113" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="VT26" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(R48-Pad1)">
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="VT27" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(U2-Pad20)">
+      <node ref="U2" pin="20" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U2-Pad22)">
+      <node ref="U2" pin="22" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="unconnected-(U2-Pad23)">
+      <node ref="U2" pin="23" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="unconnected-(U2-Pad24)">
+      <node ref="U2" pin="24" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="unconnected-(U2-Pad28)">
+      <node ref="U2" pin="28" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(U2-Pad32)">
+      <node ref="U2" pin="32" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="127" name="unconnected-(U2-Pad37)">
+      <node ref="U2" pin="37" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="128" name="unconnected-(U2-Pad38)">
+      <node ref="U2" pin="38" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
