@@ -3384,7 +3384,7 @@
     (property "Value" "47uF" (id 1) (at 128.27 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal" (id 2) (at 123.19 45.72 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 123.19 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 45.72 0)
@@ -3403,7 +3403,7 @@
     (property "Value" "1n" (id 1) (at 101.6 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" (id 2) (at 96.52 45.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 96.52 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 96.52 45.72 0)
@@ -4074,7 +4074,7 @@
     (property "Value" "100n" (id 1) (at 115.57 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal" (id 2) (at 110.49 45.72 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 110.49 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 45.72 0)
@@ -4552,13 +4552,13 @@
       (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/84d05990-c8b5-4a92-8244-f6de53abe747"
-      (reference "C3") (unit 1) (value "1n") (footprint "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal")
+      (reference "C3") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/f1fda711-2596-45d6-ba24-29f1f5117356"
-      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal")
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/83217fd8-a53a-4d04-ba20-b54a75754205"
-      (reference "C5") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal")
+      (reference "C5") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/40dfc85e-6e54-4324-b21c-0117d1a04406"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
