@@ -412,12 +412,40 @@
   },
   "sheets": [
     [
-      "cd1b7d49-5018-4cfe-8d9e-203a0ae7f332",
+      "b8ac8dc9-27a4-4070-9066-494b15806b84",
       ""
     ],
     [
-      "57591b34-ee79-4c2b-b49f-df46175499d5",
-      "AnodeDriverList"
+      "d68c0e0a-5271-49e7-8b99-f83ffc13c742",
+      "MCU"
+    ],
+    [
+      "70769ba3-e0ec-46ea-b576-5004c3bdc37e",
+      "Power Managment"
+    ],
+    [
+      "bea620bd-847a-4954-815c-36dba6e45e02",
+      "Driver"
+    ],
+    [
+      "efb26e7c-f25d-4dc7-879f-2add37e12be0",
+      "Indicator"
+    ],
+    [
+      "c8b59b7a-8349-42e3-8cb9-9467ad255e64",
+      "Interface"
+    ],
+    [
+      "41768765-a0d4-4e83-ab3b-6ba7a1050a71",
+      "Power Managment1"
+    ],
+    [
+      "c2758d05-69f9-4f53-912d-a50932909ddd",
+      "Connectors"
+    ],
+    [
+      "b34a1197-8e08-4641-a37d-047787970bda",
+      "Logic Level Converter"
     ]
   ],
   "text_variables": {}
